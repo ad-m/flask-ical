@@ -1,4 +1,4 @@
-import json
+import datetime
 from calendar import HTMLCalendar
 from datetime import date
 from itertools import groupby
@@ -63,7 +63,11 @@ def calendar_range(components, year=date.today().month, month=date.today().year)
 
 
 def calendar_sort(components):
-    components.sort(key=lambda x: x[1]['DTSTART'].dt)
+    def key(obj):
+        if isinstance(obj, datetime.datetime):
+            return obj.date
+        return obj
+    components.sort(key=key)
     return components
 
 
