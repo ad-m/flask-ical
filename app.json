@@ -1,0 +1,13 @@
+{
+  "name":"flask-ical",
+  "description":"",
+  "scripts":{},
+  "env":{
+    "FLASK_ICAL_SECRET":{
+      "generator":"secret"
+    }
+  },
+  "addons":[
+    "heroku-postgresql"
+  ]
+}
