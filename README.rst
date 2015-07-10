@@ -39,7 +39,8 @@ Once you have installed your DBMS, run the following to create your app's databa
 Deployment
 ----------
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+.. image:: https://www.herokucdn.com/deploy/button.png
+    :target: https://heroku.com/deploy
 
 In your production environment, make sure the ``FLASK_ICAL_ENV`` environment variable is set to ``"prod"``.
 
