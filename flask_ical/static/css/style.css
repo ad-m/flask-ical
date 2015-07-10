@@ -95,3 +95,6 @@ footer .footer-nav {
     white-space: pre-wrap;
     word-wrap: break-word;
 }
+.today {
+  background-color: #f0f0f0;
+}
