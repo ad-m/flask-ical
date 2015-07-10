@@ -5,7 +5,10 @@
   "env":{
     "FLASK_ICAL_SECRET":{
       "generator":"secret"
-    }
+    },
+    "FLASK_ICAL_ENV":{
+      "value":"prod"
+   } 
   },
   "addons":[
     "heroku-postgresql"
