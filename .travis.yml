@@ -2,12 +2,15 @@
 
 language: python
 
-cache: pip
-
+cache:
+  directories:
+    - $HOME/.pip-cache/
 python:
   - "3.3"
   - "2.7"
 
-install: pip install -r requirements/dev.txt
+install:
+  - pip install pip --upgrade
+  - pip install -r requirements/dev.txt  --cache-dir $HOME/.pip-cache
 
 script: py.test tests
