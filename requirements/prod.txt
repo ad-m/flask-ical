@@ -3,13 +3,13 @@
 # Flask
 Flask==0.10.1
 MarkupSafe==0.23
-Werkzeug==0.10.4
+Werkzeug==0.11.3
 Jinja2==2.8
 itsdangerous==0.24
 
 # Forms
 Flask-WTF==0.12
-WTForms==2.0.2
+WTForms==2.1
 
 # Deployment
 gunicorn>=19.1.1
@@ -31,4 +31,4 @@ Flask-DebugToolbar==0.10.0
 
 # Calendar
 requests-cache==0.4.10
-icalendar==3.9.1
+icalendar==3.9.2
