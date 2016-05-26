@@ -31,4 +31,4 @@ Flask-DebugToolbar==0.10.0
 
 # Calendar
 requests-cache==0.4.12
-icalendar==3.9.2
+icalendar==3.10
