@@ -8,7 +8,7 @@ Jinja2==2.8
 itsdangerous==0.24
 
 # Forms
-Flask-WTF==0.13
+Flask-WTF==0.13.1
 WTForms==2.1
 
 # Deployment
